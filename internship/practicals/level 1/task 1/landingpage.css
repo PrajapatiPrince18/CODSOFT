@@ -1,0 +1,265 @@
+
+/* navbar */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 123, 0, 0.884);
+}
+/* logo in navbar */
+#logo {
+    padding: 0px 40px;
+    margin-left: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 200%;
+}
+/* logo in navbar */
+#logo:hover {
+    color: rgb(25, 0, 255);
+    box-shadow: rgb(25, 0, 255) 0px 0px 10px 10px ;
+    BORDER-RADIUS:20PX;
+}
+/* menus in navbar */
+#options,
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-left: 2px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+/* menus in navbar */
+#options{
+    margin-left: 20px;
+}
+/* menus in navbar */
+a:hover{
+    background-color:rgba(0, 0, 0, 0.438);
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: large;
+}
+
+
+
+
+/* website information */
+.undernavbar{
+    background-image: url('images/balls.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    margin:0px;
+    height: 500px;
+    width:100%;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 20%;
+    padding-bottom: 0px;
+    color: rgb(0, 0, 0);
+   
+}
+/* text */
+P{
+    text-transform: capitalize;
+}
+/* read more button */
+button{
+    border-radius: 20PX;
+    height: 30px;
+    text-decoration: none;
+    background-color:rgb(255, 0, 76);
+}
+/* read more button */
+button:hover{
+    box-shadow: BLACK 0px 0px 10px 8px ;
+}
+
+
+
+
+
+/* items */
+.items{
+    display: flex;
+    box-sizing: border-box; 
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+/* text on item */
+.innerbox{
+    margin-top:65% ;
+    background-color: rgba(83, 83, 83, 0.877);
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+/* all items */
+.allitem{
+    background-color: rgb(201, 107, 127);
+    margin: 0%;
+    padding: 0%;
+}
+/* items  */
+/* items heading */
+#ITEM{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    COLOR:WHITE;
+    PADDING:0PX;
+    MARGIN:0PX;
+}
+/* item 1 */
+.span1{
+    background-image: url('images/bat1.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;  
+}
+/* item 2 */
+.span2{
+    background-image: url('images/clothes.webp');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* item 3 */
+.span3{
+    background-image: url('images/ball3.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* item 4 */
+.span4{
+    background-image: url('images/bat2.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;  
+}
+/* item 5 */
+.span5{
+    background-image: url('images/gloves.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* item 6 */
+.span6{
+    background-image: url('images/helmets.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* item 7 */
+.span7{
+    background-image: url('images/pads.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;  
+}
+/* item 8 */
+.span8{
+    background-image: url('images/shoes.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* item 9 */
+.span9{
+    background-image: url('images/balls2.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* item 10 */
+.span10{
+    background-image: url('images/bat3.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;  
+}
+/* item 11 */
+.span11{
+    background-image: url('images/kit.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* item 12 */
+.span12{
+    background-image: url('images/stumps.jpg');
+    height: 200px;
+    width: 30%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* items 1 to 12 */
+.span1:hover, .span2:hover , .span3:hover,.span4:hover, .span5:hover , .span6:hover,
+.span7:hover, .span8:hover , .span9:hover,.span10:hover, .span11:hover , .span12:hover{
+    box-shadow: rgba(255, 0, 55, 0.521) 8px 8px;
+    background-position-x: center;
+    background-position-y: top;
+    border: 2px solid rgb(255, 0, 55);  
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
+/* footer part */
+.footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(128, 128, 128, 0.603);
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* content in footer */
+table{
+    width: 60%;
+    text-align : center;
+}
